@@ -1,9 +1,9 @@
 // Модуль отвечает за взаимодействие с сервером
 
-import {getMiniPictures} from '/js/mini-picture.js';
-import {addMiniPictureHandlers} from '/js/big-picture.js';
-import {showSuccessPostMessage, showErrorPostMessage} from '/js/http-service-popup.js';
-import {showPostsFilter} from '/js/posts-filter.js';
+import {getMiniPictures} from './mini-picture.js';
+import {addMiniPictureHandlers} from './big-picture.js';
+import {showSuccessPostMessage, showErrorPostMessage} from './http-service-popup.js';
+import {showPostsFilter} from './posts-filter.js';
 
 
 fetch('https://25.javascript.htmlacademy.pro/kekstagram/data')

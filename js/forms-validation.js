@@ -1,7 +1,7 @@
 // Модуль отвечает за валидацию формы публикации
 
-import {sendPhotoFormRequest} from '/js/http-service.js';
-import {resetUploadEditor} from '/js/photos-editor.js'
+import {sendPhotoFormRequest} from './http-service.js';
+import {resetUploadEditor} from './photos-editor.js'
 
 const editorForm = document.querySelector('#upload-select-image');
 const hashtagsInput = editorForm.querySelector('[name="hashtags"]');

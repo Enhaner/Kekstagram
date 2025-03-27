@@ -1,7 +1,7 @@
 // Этот модуль содержит код фильтрации опубликованных постов
 
-import {getMiniPictures} from '/js/mini-picture.js';
-import {addMiniPictureHandlers} from '/js/big-picture.js';
+import {getMiniPictures} from './mini-picture.js';
+import {addMiniPictureHandlers} from './big-picture.js';
 
 
 function showPostsFilter (pictures) {

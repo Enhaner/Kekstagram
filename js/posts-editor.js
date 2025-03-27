@@ -1,6 +1,6 @@
 // Модуль отвечает за открытие и закрытие формы публикации и редактора изображений
 
-import {resetUploadEditor} from '/js/photos-editor.js'
+import {resetUploadEditor} from './photos-editor.js'
 
 
 const formPostOverlay = document.querySelector('.img-upload__overlay');
