@@ -1,3 +1,4 @@
+// Точка входа
 import '/js/http-service.js';
 import '/js/mini-picture.js';
 import '/js/big-picture.js';
